@@ -1,6 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    font-family: 'roboto', sans-serif;
 }
 
 img {
@@ -56,14 +57,14 @@ header {
     padding-left: 12px;
     display: flex;
     gap: 12px;
-    width: 350px;
+    width: 550px;
 }
 
 .flex-img input {
-    width: 300px;
+    width: 500px;
     height: 24px;
     border-radius: 12px;
-    background-color: #bccbde;
+    background-color: #e2e8f0;
     border: transparent;
 }
 
@@ -95,7 +96,26 @@ header {
     font-size: small;
 }
 
+.btn {
+    margin-right: 24px;
+}
+
+.btn ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.btn ul .button {
+    background-color: #3882f6;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    border: transparent;
+}
+
 .container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    background-color: #e2e8f0;
 }
